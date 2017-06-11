@@ -1,0 +1,5 @@
+[user]
+	email = acomagu@gmail.com
+	name = Yuki Ito
+[alias]
+	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"

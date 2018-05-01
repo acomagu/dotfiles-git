@@ -8,3 +8,5 @@
 	editor = nvim
 [init]
 	templatedir = ~/.config/git/dotgit-template
+[url "git@github.com:"]
+	InsteadOf = https://github.com/

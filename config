@@ -3,8 +3,8 @@
 	name = Yuki Ito
 [alias]
 	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+	tree = "log --oneline --decorate --graph --date=format:'%m%d %H%M%S' --pretty='%C(blue)%ad%C(auto) %h %Cgreen%an%Creset: %s %C(yellow)%d%Creset'"
 [core]
 	editor = nvim
-	tree = "log --oneline --decorate --graph --date=format:'%m%d %H%M%S' --pretty='%C(blue)%ad%C(auto) %h %Cgreen%an%Creset: %s %C(yellow)%d%Creset'"
 [init]
 	templatedir = ~/.config/git/dotgit-template

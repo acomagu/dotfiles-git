@@ -6,6 +6,7 @@
 	tree = "log --oneline --decorate --graph --date=format:'%m%d %H%M%S' --pretty='%C(blue)%ad%C(auto) %h %Cgreen%an%Creset: %s %C(yellow)%d%Creset'"
 [core]
 	editor = nvim
+	whitespace = -trailing-space,-indent-with-non-tab,-tab-in-indent
 [init]
 	templatedir = ~/.config/git/dotgit-template
 [url "git@github.com:"]

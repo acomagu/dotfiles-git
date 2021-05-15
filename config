@@ -11,6 +11,8 @@
 	InsteadOf = https://github.com/
 [merge]
 	conflictstyle = diff3
+[rerere]
+	enable = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
